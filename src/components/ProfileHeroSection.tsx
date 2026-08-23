@@ -15,7 +15,7 @@ export const ProfileHeroSection: React.FC<ProfileHeroSectionProps> = ({
   settings,
   primaryColor = '#1d4ed8'
 }) => {
-  const avatarUrl = settings.avatar_icon_url || 'https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=400&auto=format&fit=crop&q=80';
+  const avatarUrl = settings.avatar_icon_url || 'https://lh3.googleusercontent.com/d/13fhFXRKRGTBJQyxEzKQPZoMc293R32tX';
   const name = settings.site_title || 'আরিফুল ইসলাম';
   const designation = settings.about_me_designation || 'ফুলস্ট্যাক ওয়েব ডেভেলপার ও গুগল ওয়ার্কস্পেস অটোমেশন বিশেষজ্ঞ';
   const bio = settings.about_me_summary || 'আমি একজন পেশাদার ওয়েব ডেভেলপার। গুগল স্প্রেডশিটকে ডাটাবেস হিসেবে ব্যবহার করে ডায়নামিক ওয়েবসাইট ও অটোমেশন সলিউশন তৈরিতে বিশেষজ্ঞ।';
